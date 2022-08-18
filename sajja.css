@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quotes{
+	margin-top: 0;
+	padding:10px;
+	background:grey;
+	color:yellow;
+	}
+marquee{
+	font-size: 20px;
+}
+.row{background-color: black;}
+
+.nav{
+	position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;  
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-flex;
+    margin-right: 20px;
+    
+}
+
+nav a { color: white;
+	 top:-10px;
+	 padding:10px;
+	 text-decoration: none;
+	 font-size: 13px;
+	 font-family: cursive;
+	}
+
+nav a:hover{ 
+	color: black;
+	background: yellow;
+		 transition-property: color,background;
+		 transition-duration: .5s;
+		 color: black;
+		 padding: 10px;}
+
+.logo img{
+		position: absolute;
+		border-radius:100%;
+		top:-30px;
+		left:-52px;
+		height:auto;
+		width:200px;
+		zoom:175%;
+		filter:invert(0%);
+		}
+
+.logo img:hover{
+	position: absolute;
+	filter:invert(100%);
+	transition-property: filter;
+	transition-duration: 5s;
+	}
+
+.header img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+   }
+
+.header{
+	height:300px;
+	width:100%;
+	background-color: black;
+
+	}
+
+#more {display: none;}
+
+button{background-color: transparent;
+		text-decoration: none;
+		display: inline;
+		color: blue;
+		border-style: hidden;}
+
+button:hover{text-decoration: underline;}
+
+.article{ height: 100px;
+	display: flex-inline;
+		  WIDTH:100%;
+		 }
+
+ 
+
+.column{
+	float:left;
+	padding:20px;
+}
+.column.main{
+	float:center;
+	text-align: justify;
+	width: 50%;
+}
+.column.side{
+	margin-left:auto;
+	width: 25%;
+	text-align: justify;
+}
+h2 {
+	text-align: center;
+	padding:10px;
+	background-color: #4dff85;
+}
+h2:hover{
+	background-color: black;
+	color:yellow;
+}
+.column.side h3 {
+	text-align: center;
+	padding:10px;
+	background-color: #d642c7;
+}
+.column.side h3:hover{
+	background-color: black;
+	color:yellow;
+}
+.column.side2 h3 {
+	text-align: center;
+	padding:10px;
+	background-color: #f5fc28;
+}
+.column.side2 h3:hover{
+	background-color: black;
+	color:yellow;
+}
+
+.row2{
+	background:grey;
+}
+
+.column.side2{
+	float:left;
+	width:25%;
+	text-align: justify;
+	margin-right: auto;
+}
+.footer{
+	clear: both;
+	text-align: center;
+	padding:10px;
+	background: linear-gradient(grey,blanchedalmond);
+}
+
+@media screen and (max-width: 617px)
+{
+	.column.side, .column.main, .column.side2
+	{	width:100%;
+		}
+}
