@@ -39,6 +39,11 @@ margin-left: 0;
 margin-right: 4cm;
 }
 
+nav ul li .left {
+    padding:0 200px;
+    color: wheat;s
+}
+
 .container {
     background-color: aqua;
     color: white;
