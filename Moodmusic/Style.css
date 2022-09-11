@@ -59,7 +59,7 @@ display: flex;
     color: white;
     margin:auto;
     margin-top: 25px;
-    padding: 25px 25px;
+    padding: 25px 20px;
     height: 68vh;
     width: 35vw;
     display: flex;
@@ -67,7 +67,17 @@ display: flex;
     justify-content: center;
     text-align: center;
 }
-
+.header{
+    display: inline;
+    padding: 20 px;
+    font-size: medium; 
+    font-display: stretch;
+}
+.albums {
+    padding: 0 5px;
+    display: table-row;
+    grid-row: inherit;
+}
 .bottom {
     position: sticky;
     margin-top:25px;
